@@ -1,0 +1,23 @@
+h1::selection {
+	background-color: red;
+	color: white;
+}
+
+h2::selection {
+	background-color: red;
+	color: white;
+}
+
+p::selection {
+	background-color: red;
+	color: white;
+}
+
+img::selection {
+	background: rgba(255, 0, 0, 0.74);
+}
+
+li::selection {
+	background-color: red;
+	color: white;
+}

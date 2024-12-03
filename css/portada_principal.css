@@ -1,0 +1,36 @@
+/*Fondo de portada*/
+.flex-center {
+	background-image: url(../imagenes_portada/Fondo_principal.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+}
+
+.titulo-principal {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	position: absolute;
+	height:500px;
+	color: white; /* Para asegurar que el texto sea legible */
+	font-size: 1.5em;
+	font-weight: bold;
+	background: rgba(0, 0, 0, 0.4); /* Filtro oscuro para mejorar legibilidad */
+}
+
+.titulo-principal-texto {
+	padding-left:10px;
+	padding-right: 10px;
+    text-align:center;
+    color:white;
+    font-size: 48px;
+}
+
+@media(max-width:722px) {
+	.titulo-principal-texto {
+		font-size:24px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}

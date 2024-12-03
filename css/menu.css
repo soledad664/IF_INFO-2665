@@ -1,0 +1,114 @@
+.menu {
+	list-style:none;
+	background-color: rgb(198, 198, 198);
+	padding: 20px;
+	display: flex;
+	align-items: center;
+ }
+ 
+ .menu li {
+	position: relative;
+	display: inline-block;
+ }
+ 
+ .menu li:hover ul {
+	display: block;
+ }
+ 
+ .menu ul {
+	display: none;
+	position:absolute;
+	top: 100%;
+	left: 0;
+	background-color: aliceblue;
+	padding: 0;
+	margin: 0;
+	z-index: 10;
+ }
+ 
+ .menu ul li a {
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	color: rgb(0, 0, 0)
+ }
+ 
+ .menu ul li a:hover {
+	background-color: red;
+	color: white;
+ 
+ }
+ 
+ /*Texto del menú*/
+ .menu li a {
+	text-decoration:none;
+	padding: 20px;
+	color:rgb(0, 0, 0);
+ }
+ 
+ .menu .logo {
+	 margin-right: 20px;
+ }
+ 
+ .menu .logo img {
+	 height: 32px;
+	 display: block;
+ }
+
+ @media(max-width:722px) {
+	.menu {
+		list-style:none;
+		background-color: rgb(198, 198, 198);
+		padding: 20px;
+		display: flex;
+		align-items: center;
+	 }
+	 
+	 .menu li {
+		position: relative;
+		display: none;
+	 }
+	 
+	 .menu li:hover ul {
+		display: block;
+	 }
+	 
+	 .menu ul {
+		display: none;
+		position:absolute;
+		top: 100%;
+		left: 0;
+		background-color: aliceblue;
+		padding: 0; /* Asegúrate de que no haya espacio no deseado */
+		margin: 0;
+		z-index: 10;
+	 }
+	 
+	 .menu ul li a {
+		display: block;
+		padding: 10px;
+		text-decoration: none;
+		color: rgb(0, 0, 0)
+	 }
+	 
+	 .menu ul li a:hover {
+		background-color: red;
+	 
+	 }
+	 
+	 /*Texto del menú*/
+	 .menu li a {
+		text-decoration:none;
+		padding: 20px;
+		color:rgb(0, 0, 0);
+	 }
+	 
+	 .menu .logo {
+		 margin-right: 20px;
+	 }
+	 
+	 .menu .logo img {
+		 height: 32px;
+		 display: block;
+	 }
+}
